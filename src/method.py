@@ -4,7 +4,7 @@ import loaddb as db
 import sqlalchemy
 from sqlalchemy import create_engine
 
-engine = create_engine('mssql+pyodbc://sa:mega0101!@192.168.1.2/covid19?driver=ODBC Driver 17 for SQL Server')
+engine = create_engine('mssql+pyodbc://sa:pwd@192.168.1.2/covid19?driver=ODBC Driver 17 for SQL Server')
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
