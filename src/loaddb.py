@@ -6,7 +6,7 @@ import pandas as pd
 import pyodbc
 
 # set up connection to database (with username/pw if needed)
-engine = create_engine('mssql+pyodbc://sa:mega0101!@192.168.1.2/covid19?driver=ODBC Driver 17 for SQL Server')
+engine = create_engine('mssql+pyodbc://sa:pwd@192.168.1.2/covid19?driver=ODBC Driver 17 for SQL Server')
 print sqlalchemy.__version__ 
 
 def initializeDB():
