@@ -1,8 +1,10 @@
 # Pre-Requisites
 
 # Install Python 3
+```bash
 sudo apt install python3
 sudo apt install python3-venv
+```
 
 # Install PiP
 sudo apt install python-pip
